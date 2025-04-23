@@ -1,3 +1,5 @@
+IF YOUR OS IS WINDOWS:
+
 1. 	open powershell as Adminstrator 
 	wsl --install
 
