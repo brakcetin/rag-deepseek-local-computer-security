@@ -106,7 +106,7 @@ def ask_ollama(prompt: str) -> Optional[str]:
                 "prompt": prompt,
                 "stream": False
             },
-            timeout=60  # Added timeout
+            timeout=90  # Added timeout
         )
         response.raise_for_status()
         logger.info("Response received from Ollama.")
